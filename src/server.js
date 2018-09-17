@@ -13,6 +13,6 @@ app.use("/graphql", (0, _expressGraphql.default)({
   schema: _schema.default,
   graphiql: true
 }));
-app.listen(4000, function () {
+app.listen(9000, function () {
   console.log("Listening");
 });
